@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="real.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-bar">
+        <img src="logo.jpg"  alt="logo" id="logo">
+            
+        <div id="opt">
+            <a href="index.html" class="nav">My Home</a>
+            <a href="browseHome.html" class="nav">Buy</a>
+            <a href="sellAHome.html" class="nav">Sell</a>
+            <a href="rent.html" class="nav">Rent</a>
+            <a href="#" class="nav">Mortage</a>
+        </div>
+    
+        <div style="margin-left: 320px; margin-right: 30px;">
+            <button class="man">Manage Rentals</button>
+            <button class="man">Advertise</button>
+        </div>
+    
+        <div id="log">
+            <a href="#" class="btn" id="signup">SignUp</a>
+            <a href="#" class="btn" id="login">LogIn</a>
+        </div>
+
+        <div class="popup">
+            <div class="popup-content">
+                <img src="close.png" alt="close" class="close">
+                <img src="user.png" style="height: 60px; width: 60px;" alt="user">
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <a href="#" class="log" id="signup" style="margin-left: 200px; background-color: red; color: whitesmoke; padding: 5px 20px; border-radius: 100px; text-decoration: none;">LogIn</a>
+            </div>
+        </div>
+
+        <div class="popups">
+            <div class="popups-content">
+                <img src="close.png" alt="close" class="closes">
+                <img src="user.png" style="height: 60px; width: 60px;" alt="user">
+                <input type="text" placeholder="Full Name">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Create Username">
+                <input type="password" placeholder="Create Password">
+                <a href="#" class="log" id="signup" style="margin-left: 200px; background-color: red; color: whitesmoke; padding: 5px 20px; border-radius: 100px; text-decoration: none;">Register</a>
+            </div>
+        </div>
+    </div>  
+
+    <div id="bgimg">
+        <h1 style="color: whitesmoke; font-family: 'Kalam', cursive;">Let's find a home that's perfect for you...</h1>
+        <div id="search">
+            <input type="text" placeholder="   Address, City or Neighbourhood" id="searchBar">
+            <div class="material-symbols-outlined" >search</div>
+        </div>               
+    </div>
+
+    <div id="recom">
+        <div id="rec" style="width: 270px;">
+            <h2 style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; font-size: 200%;">Get Home Recomendations</h2>
+            <h3>Sign in for a more personalised experience.</h3><br>
+            <a href="#" id="signin">Sign in</a>   
+        </div>
+        <div id="album">
+            <div style="width:100px;"></div>
+            <img class="home" src="https://www.homestratosphere.com/wp-content/uploads/2023/01/four-bedroom-modern-style-house-plans-featured-jan232023-870x580.jpg.webp" alt="">
+            <div style="width:40px"></div>
+            <img class="home" src="https://5.imimg.com/data5/KF/II/ZZ/SELLER-22169397/home-3d-architectural-design-service-500x500.jpg" alt="">
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="cards">
+            <img src="https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2022/07/Buy_a_home.webp" style="width: 390px; padding-top: 40px;" alt="buyImg">
+            <h2 style="font-family: 'Pacifico', cursive; font-size: 200%;">Buy A Home</h2>
+            <h5>Ready to shift to a new house, find <br>your place with an immersive photo <br>including things you won't find <br>anywhere else.</h5>
+            <br>
+            <a href="browseHome.html" class="cardBtn">Browse Homes</a>
+        </div>
+        <div class="cards" >
+            <img src="https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2022/07/Sell_a_home.webp" style="width: 390px; padding-top: 40px;"alt="sellImg">
+            <h2 style="font-family: 'Pacifico', cursive; font-size: 200%;">Sell A Home<h2>
+            <h5>No matter, what path you take to <br>sell your home, we can help <br>you navigate a successfull sale.</h5>
+            <br>
+            <a href="sellAHome.html" class="cardBtn">See Your Options</a>
+        </div>
+        <div class="cards">
+            <img src="https://www.zillowstatic.com/bedrock/app/uploads/sites/5/2022/08/Rent_a_home.webp" style="width: 390px; padding-top: 40px;"alt="rentImg">
+            <h2 style="font-family: 'Pacifico', cursive; font-size: 200%;">Rent A Home</h2>
+            <h5>We are creating a seamless online <br>experience- from shopping on largest <br>rental network, to paying rent.</h5>
+            <br>
+            <a href="rent.html" class="cardBtn">Find Rentals</a>
+        </div>
+    </div>
+
+    <footer>
+        <div>AboutUs<br><br>Careers<br><br>Feedbacks<br><br>MediaRoom</div>
+        <div>Accessibilty<br><br>AdChoices<br><br>Privacy<br><br>Terms</div>
+        <div>Facebook<br><br>Twitter<br><br>Instagram<br><br>LinkedIn</div>
+    </footer>
+    <div id="love"><u>Made with &hearts; by SAMARTH</u></div>
+    <img src="https://s.zillowstatic.com/pfs/static/footer-art.svg" alt="" style="width: 100%; background-color: lightgray;">
+    
+    <script src="app.js"></script>
+</body>
+</html>
